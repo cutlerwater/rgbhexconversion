@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #686de0;
+	background-color: darkslategray;
 	font-family: 'Muli', sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -40,7 +40,7 @@ h3 {
 }
 
 .btn {
-	background-color: #9F68E0;
+	background-color: darkslategray;
 	border: 0;
 	border-radius: 10px;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
@@ -77,7 +77,7 @@ h3 {
 	background-color: #fff;
 	border-radius: 16px;
 	box-shadow: 0 16px 31px -17px rgba(0,31,97,0.6);
-	border: 5px solid #001F61;
+	border: 5px solid darkslategray;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -104,7 +104,7 @@ h3 {
 }
 
 .social-panel p {
-	background-color: #001F61;
+	background-color: darkslategray;
 	border-radius: 0 0 10px 10px;
 	color: #fff;
 	font-size: 14px;
@@ -168,8 +168,8 @@ h3 {
 
 .floating-btn {
 	border-radius: 26.5px;
-	background-color: #001F61;
-	border: 1px solid #001F61;
+	background-color: rgb(28, 7, 87);
+	border: 1px solid #020d24;
 	box-shadow: 0 16px 22px -17px #03153B;
 	color: #fff;
 	cursor: pointer;
