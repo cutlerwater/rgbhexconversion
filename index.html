@@ -4,20 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dad Jokes</title>
+    <title>Rgba to hex/rgb converter</title>
     <link rel="stylesheet" href="style.css"></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
   
-  <div class="container">
-    <h3>Don't laugh challenge</h3>
-    <div id="joke" class="joke">
-      // joke goes here
+  <div class="header">
+    <h1>RGBA to HEX converter</h1>
+</div>
+<div class="content">
+    <form onsubmit="return convert(event)">
+        <label>
+            Red
+            <input type="number" min="0" max="256" name="red" id="red" placeholder="Red value" title="Red" required/>
+        </label>
+        <br/>
+        <label>
+            Green
+            <input type="number" min="0" max="256" name="red" id="green" placeholder="Green value" title="Green" required/>
+        </label>
+        <br/>
+        <label>
+            Blue
+            <input type="number" min="0" max="256" name="red" id="blue" placeholder="Blue value" title="Blue" required/>
+        </label>
+        <br/>
+        <label>
+            Alpha
+            <input type="number" min="0" max="100" name="alpha" id="alpha" placeholder="Alpha value (0-100)" title="Alpha" required/>
+        </label>
+        <br/>
+        <button type="submit">Calculate</button>
+    </form>
+    
+    <div id="resultcontainer">
+        <div id="result"></div>
     </div>
-    <button id="get_joke" class="btn">Get Another Joke</button>
-  </div>
+</div>
 
 
     <div class="social-panel-container">

@@ -1,61 +1,90 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
-* {
-	box-sizing: border-box;
-}
-
 body {
-	background-color: darkslategray;
-	font-family: 'Muli', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #f5f5f5;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
-	margin: 0;
+	height: 100%;
 }
 
-.container {
-	background-color: #fff;
-	border-radius: 10px;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
-	padding: 50px 20px;
-	text-align: center;
-	max-width: 100%;
-	width: 800px;
+.header {
+	font-size: 24px;
+	font-family: monospace;  
 }
 
-h3 {
-	opacity: 0.5;
-	letter-spacing: 2px;
-	margin: 0;
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-.joke {
-	font-size: 30px;
-	letter-spacing: 1px;
-	line-height: 40px;
-	margin: 50px auto;
-	max-width: 600px;
+.content p {
+	font-size: 18px;
 }
 
-.btn {
-	background-color: darkslategray;
-	border: 0;
-	border-radius: 10px;
-	box-shadow: 0 5px 15px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	padding: 14px 40px;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.btn:active {
-	transform: scale(0.98);
+form label {
+  font-family: monospace;
+  font-size: 28px;
+  line-height: 28px;
+  width: 250px;
+  display: flex;
+  align-items: center;
 }
 
-.btn:focus {
-	outline: 0;
+form label:nth-child(1) {
+	color: red;
+}
+
+form label:nth-child(2) {
+	color: green;
+}
+
+form label:nth-child(3) {
+	color: blue;
+}
+
+form input {
+	color: black;
+	height: 28px;
+	width: 100%;
+	border: none;
+	margin-left: 10px;
+}
+
+
+form button {
+	background-color: yellow;
+	height: 30px;
+	padding: 4px 12px;
+	color: black;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 6px;
+	font-family: monospace;  
+}
+
+#resultcontainer {
+	width: 100%;
+	height: 100px;
+	background-color: #fdfff7;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#result {
+	font-family: monospace;  
+	font-size: 24px;
 }
 
 
